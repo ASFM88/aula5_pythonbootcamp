@@ -9,7 +9,7 @@ readme = "README.md"
 python = "3.12.1"
 polars = "0.20.3"
 duckdb = "0.10.0"
-modin = {extras = ["dask"], version = "^0.27.0"}
+modin = "0.27.0"  ← opcional, apenas como referência, mas não será lido
 dask = {extras = ["complete"], version = "^2024.2.0"}
 dask-expr = "^0.4.2"
 tqdm = "^4.66.2"
